@@ -22,7 +22,7 @@ b = np.zeros (K*C)
 fig = plt.figure()
 #ax = fig.add_subplot(111)
 #mpl.pyplot.ion()
-metadata = dict(title='Perceptron', artist='Ghiasi')
+metadata = dict(title='Perceptron', artist='Me')
 pillowWriter = animation.writers['pillow']
 moviewriter = pillowWriter(fps=5, metadata=metadata)
 moviewriter.setup(fig=fig, outfile='perceptron.gif', dpi=600)
